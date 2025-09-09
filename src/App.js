@@ -1,11 +1,14 @@
-import './App.css';
+import React, { Component } from 'react';
+import { DayOne } from './pages/DayOne';
 
-function App() {
-  return (
-    <div className="App">
-      muthu raman 
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div >
+        <DayOne/>
+      </div>
+    );
+  }
 }
 
 export default App;
